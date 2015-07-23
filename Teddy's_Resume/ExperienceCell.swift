@@ -26,42 +26,13 @@ class ExperienceCell: UITableViewCell {
         responsibilityLabel.text = responsibility!.text
         
         if responsibility!.isMain {
-            responsibilityLabel.font = UIFont(name: "Calibri-Bold", size: 18.0)
-            responsibilityLeadingConstraint.constant = 8
+            responsibilityLabel.font = UIFont(name: "Calibri-Bold", size: 14.0)
+            responsibilityLeadingConstraint.constant = 12
             
         } else {
-            responsibilityLabel.font = UIFont(name: "Calibri", size: 18.0)
-            responsibilityLeadingConstraint.constant = 28
+            responsibilityLabel.font = UIFont(name: "Calibri", size: 14.0)
+            responsibilityLeadingConstraint.constant = 48
         }
         setNeedsUpdateConstraints()
     }
-    
-//    // MARK: - Properties
-//    var cityWeather: CityWeather? {
-//        didSet {
-//            configureCell()
-//        }
-//    }
-//    
-//    // MARK: - Utility methods
-//    private func configureCell() {
-//        cityImageView.image = cityWeather?.cityImage
-//        cityNameLabel.text = cityWeather?.name
-//    }
-
-    
-
-    
-//    
-//    override func awakeFromNib() {
-//        super.awakeFromNib()
-//        // Initialization code
-//    }
-//
-//    override func setSelected(selected: Bool, animated: Bool) {
-//        super.setSelected(selected, animated: animated)
-//
-//        // Configure the view for the selected state
-//    }
-
 }

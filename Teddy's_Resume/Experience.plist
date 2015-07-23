@@ -15,19 +15,19 @@
 			<array>
 				<dict>
 					<key>text</key>
-					<string>International Team Lead for Native iOS component of the ShowdMe P2P educational platform</string>
+					<string>● International Team Lead for Native iOS component of the ShowdMe P2P educational platform</string>
 					<key>isMain</key>
 					<true/>
 				</dict>
 				<dict>
 					<key>text</key>
-					<string>Overseeing design and implementation of product development</string>
+					<string>○ Overseeing design and implementation of product development</string>
 					<key>isMain</key>
 					<false/>
 				</dict>
 				<dict>
 					<key>text</key>
-					<string>Optimized UX/UI across multiple screen sizes and varying network connections</string>
+					<string>○ Optimized UX/UI across multiple screen sizes and varying network connections</string>
 					<key>isMain</key>
 					<false/>
 				</dict>
@@ -35,23 +35,23 @@
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>Increased security through application of best mobile practices</string>
+					<string>○ Increased security through application of best mobile practices</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
 					<true/>
 					<key>text</key>
-					<string>Project Lead for native iOS and Android components of the Canvs+ visual project management tool</string>
+					<string>● Project Lead for native iOS and Android components of the Canvs+ visual project management tool</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>Adapting web designs to provide optimal native mobile experience across all devices</string>
+					<string>○ Adapting web designs to provide optimal native mobile experience across all devices</string>
 				</dict>
 				<dict>
 					<key>text</key>
-					<string>Creating state of the art real-time collaborative experience through IoT technologies including but not limited to: NFC, Multipeer Connectivity, Bluetooth LE, and iBeacon</string>
+					<string>○ Creating state of the art real-time collaborative experience through IoT technologies including but not limited to: NFC, Multipeer Connectivity, Bluetooth LE, and iBeacon</string>
 					<key>isMain</key>
 					<false/>
 				</dict>
@@ -59,37 +59,37 @@
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>Rapid prototyping of multiplatform MVP from concept phase</string>
+					<string>○ Rapid prototyping of multiplatform MVP from concept phase</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
 					<true/>
 					<key>text</key>
-					<string>Team Lead responsibilities including:</string>
+					<string>● Team Lead responsibilities including:</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>Managing Scrum and Kanban boards, weekly sprints, and holding daily stand up meetings</string>
+					<string>◦ Managing Scrum and Kanban boards, weekly sprints, and holding daily stand up meetings</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>Contributing to product design via frequent collaboration with UX/UI design teams</string>
+					<string>○ Contributing to product design via frequent collaboration with UX/UI design teams</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>Reviewing all code changes to mobile app repositories across several projects</string>
+					<string>○ Reviewing all code changes to mobile app repositories across several projects</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>Mentoring junior developers in iOS development using both Swift and Objective-C</string>
+					<string>○ Mentoring junior developers in iOS development using both Swift and Objective-C</string>
 				</dict>
 			</array>
 		</dict>
@@ -97,16 +97,40 @@
 			<key>company</key>
 			<string>Kids of Courage</string>
 			<key>period</key>
-			<string></string>
+			<string>July &apos;09 - Present</string>
 			<key>position</key>
-			<string></string>
+			<string>Technology Coordinator / Volunteer</string>
 			<key>responsibilities</key>
 			<array>
 				<dict>
 					<key>isMain</key>
 					<true/>
 					<key>text</key>
-					<string></string>
+					<string>● Project Lead for Couragers: a native, multi-platform real-time mobile scheduling application</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>◦ Led design and development of native iOS and Android applications</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ Created and deployed backend web service &amp; database</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ </string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ </string>
 				</dict>
 			</array>
 		</dict>
@@ -114,16 +138,34 @@
 			<key>company</key>
 			<string>Integrative Pediatric Associates of NY</string>
 			<key>period</key>
-			<string></string>
+			<string>Sept &apos;13 - Feb &apos;14</string>
 			<key>position</key>
-			<string></string>
+			<string>Freelance Mobile Consultant</string>
 			<key>responsibilities</key>
 			<array>
 				<dict>
 					<key>isMain</key>
 					<true/>
 					<key>text</key>
-					<string></string>
+					<string>● Building a medical provider mobile application to enhance provider/patient communication management</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ Performed business analysis/design (UML) to document business requirements</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ Designed app architecture leveraging Cocoa Touch networking frameworks &amp; Firebase (Mobile BaaS) </string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ Developed technology platform infrastructure architecture deploying to Google App Engine (PaaS)</string>
 				</dict>
 			</array>
 		</dict>
@@ -131,26 +173,44 @@
 			<key>company</key>
 			<string>Transperfect Translations</string>
 			<key>period</key>
-			<string></string>
+			<string>Dec &apos;13 - May &apos;14</string>
 			<key>position</key>
 			<string>Freelance Mobile Developer</string>
 			<key>responsibilities</key>
 			<array>
 				<dict>
 					<key>isMain</key>
-					<true/>
+					<false/>
 					<key>text</key>
-					<string></string>
+					<string>◦ Modernized several outdated native iOS translation apps to support iOS 7/8 compatibility</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ Managed product backlog, timeline, cost, and development</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○</string>
 				</dict>
 			</array>
 		</dict>
 		<dict>
 			<key>company</key>
-			<string></string>
+			<string>TMD Tutoring</string>
 			<key>period</key>
 			<string></string>
 			<key>position</key>
-			<string></string>
+			<string>Founder &amp; Private Tutor</string>
 			<key>responsibilities</key>
 			<array>
 				<dict>

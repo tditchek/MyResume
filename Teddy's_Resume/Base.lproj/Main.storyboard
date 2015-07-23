@@ -9,8 +9,8 @@
             <string>Arkhip</string>
             <string>Arkhip</string>
         </mutableArray>
-        <mutableArray key="Calibri.ttf">
-            <string>Calibri</string>
+        <mutableArray key="Calibri_Bold.ttf">
+            <string>Calibri-Bold</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -150,18 +150,18 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cib-Vz-zDd">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items/>
-                                <color key="barTintColor" red="0.21176470588235294" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.19607843137254902" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experience" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1nB-yd-RTM">
-                                <rect key="frame" x="214" y="26" width="173" height="33"/>
-                                <fontDescription key="fontDescription" name="Arkhip" family="Arkhip" pointSize="27"/>
+                                <rect key="frame" x="223" y="28" width="154" height="29"/>
+                                <fontDescription key="fontDescription" name="Arkhip" family="Arkhip" pointSize="24"/>
                                 <color key="textColor" red="0.050980392156862744" green="0.77254901960784317" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" allowsSelection="NO" rowHeight="274" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="BJY-Uu-Jic">
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <color key="separatorColor" red="0.054901960780000002" green="0.7725490196" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="separatorColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExperienceCell" rowHeight="95" id="UoY-1l-rmx" customClass="ExperienceCell" customModule="Teddy_s_Resume">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -169,20 +169,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UoY-1l-rmx" id="wvw-ER-Hzp">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmF-bl-8dt">
-                                                    <rect key="frame" x="8" y="8" width="584" height="78"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmF-bl-8dt">
+                                                    <rect key="frame" x="8" y="4" width="584" height="86"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <string key="text">Creating state of the art real-time collaborative experience through IoT technologies including but not limited to: NFC, Multipeer Connectivity, Bluetooth LE, and iBeacon</string>
-                                                    <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="18"/>
+                                                    <fontDescription key="fontDescription" name="Calibri-Bold" family="Calibri" pointSize="18"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <constraints>
-                                                <constraint firstItem="AmF-bl-8dt" firstAttribute="top" secondItem="wvw-ER-Hzp" secondAttribute="top" constant="8" id="EYo-Go-Etx"/>
+                                                <constraint firstAttribute="bottom" secondItem="AmF-bl-8dt" secondAttribute="bottom" constant="4" id="1cx-qH-80h"/>
+                                                <constraint firstItem="AmF-bl-8dt" firstAttribute="top" secondItem="wvw-ER-Hzp" secondAttribute="top" constant="4" id="EYo-Go-Etx"/>
                                                 <constraint firstAttribute="trailing" secondItem="AmF-bl-8dt" secondAttribute="trailing" constant="8" id="OGr-ts-auo"/>
-                                                <constraint firstAttribute="bottom" secondItem="AmF-bl-8dt" secondAttribute="bottom" constant="8" id="PXj-x8-s15"/>
                                                 <constraint firstItem="AmF-bl-8dt" firstAttribute="leading" secondItem="wvw-ER-Hzp" secondAttribute="leading" constant="8" id="SO4-3g-wZG"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -223,6 +223,9 @@
                         </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Experience" id="rsC-04-pML"/>
+                    <connections>
+                        <outlet property="tableView" destination="BJY-Uu-Jic" id="Bsy-87-Zf0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FaI-U1-4eF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

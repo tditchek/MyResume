@@ -18,14 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         //println(UIFont.familyNames())
-        
-        for name in UIFont.familyNames() {
-            println(name)
-            if let nameString = name as? String
-            {
-                println(UIFont.fontNamesForFamilyName(nameString))
-            }
-        }
+//        for name in UIFont.familyNames() {
+//            println(name)
+//            if let nameString = name as? String
+//            {
+//                println(UIFont.fontNamesForFamilyName(nameString))
+//            }
+//        }
         
         return true
     }
