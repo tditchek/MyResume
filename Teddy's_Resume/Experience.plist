@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>experience</key>
+	<array>
+		<dict>
+			<key>company</key>
+			<string>Monimus LLC</string>
+			<key>period</key>
+			<string>Sept &apos;14 - Present</string>
+			<key>position</key>
+			<string>Lead iOS Developer &amp; Mobile Project Manager</string>
+			<key>responsibilities</key>
+			<array>
+				<dict>
+					<key>text</key>
+					<string>International Team Lead for Native iOS component of the ShowdMe P2P educational platform</string>
+					<key>isMain</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>text</key>
+					<string>Overseeing design and implementation of product development</string>
+					<key>isMain</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>text</key>
+					<string>Optimized UX/UI across multiple screen sizes and varying network connections</string>
+					<key>isMain</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>Increased security through application of best mobile practices</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<true/>
+					<key>text</key>
+					<string>Project Lead for native iOS and Android components of the Canvs+ visual project management tool</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>Adapting web designs to provide optimal native mobile experience across all devices</string>
+				</dict>
+				<dict>
+					<key>text</key>
+					<string>Creating state of the art real-time collaborative experience through IoT technologies including but not limited to: NFC, Multipeer Connectivity, Bluetooth LE, and iBeacon</string>
+					<key>isMain</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>Rapid prototyping of multiplatform MVP from concept phase</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<true/>
+					<key>text</key>
+					<string>Team Lead responsibilities including:</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>Managing Scrum and Kanban boards, weekly sprints, and holding daily stand up meetings</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>Contributing to product design via frequent collaboration with UX/UI design teams</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>Reviewing all code changes to mobile app repositories across several projects</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>Mentoring junior developers in iOS development using both Swift and Objective-C</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>company</key>
+			<string>Kids of Courage</string>
+			<key>period</key>
+			<string></string>
+			<key>position</key>
+			<string></string>
+			<key>responsibilities</key>
+			<array>
+				<dict>
+					<key>isMain</key>
+					<true/>
+					<key>text</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>company</key>
+			<string>Integrative Pediatric Associates of NY</string>
+			<key>period</key>
+			<string></string>
+			<key>position</key>
+			<string></string>
+			<key>responsibilities</key>
+			<array>
+				<dict>
+					<key>isMain</key>
+					<true/>
+					<key>text</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>company</key>
+			<string>Transperfect Translations</string>
+			<key>period</key>
+			<string></string>
+			<key>position</key>
+			<string>Freelance Mobile Developer</string>
+			<key>responsibilities</key>
+			<array>
+				<dict>
+					<key>isMain</key>
+					<true/>
+					<key>text</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>company</key>
+			<string></string>
+			<key>period</key>
+			<string></string>
+			<key>position</key>
+			<string></string>
+			<key>responsibilities</key>
+			<array>
+				<dict>
+					<key>isMain</key>
+					<true/>
+					<key>text</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

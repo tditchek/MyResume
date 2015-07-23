@@ -36,6 +36,19 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Anke.otf</string>
+		<string>Anke.ttf</string>
+		<string>Calibri.ttf</string>
+		<string>Calibril.ttf</string>
+		<string>Calibri_Bold.ttf</string>
+		<string>Calibri_Italic.ttf</string>
+		<string>Calibri_Bold_Italic.ttf</string>
+		<string>Arkhip_font_1.otf</string>
+		<string>Arkhip_font_2.otf</string>
+		<string>Arkhip_font_3.otf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

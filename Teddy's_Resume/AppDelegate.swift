@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //println(UIFont.familyNames())
+        
+        for name in UIFont.familyNames() {
+            println(name)
+            if let nameString = name as? String
+            {
+                println(UIFont.fontNamesForFamilyName(nameString))
+            }
+        }
+        
         return true
     }
 

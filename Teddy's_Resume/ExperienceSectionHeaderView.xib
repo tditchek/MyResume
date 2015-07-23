@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Calibri Bold.ttf">
+            <string>Calibri-Bold</string>
+            <string>Calibri-Bold</string>
+        </mutableArray>
+        <mutableArray key="Calibri Italic.ttf">
+            <string>Calibri-Italic</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ExperienceSectionHeaderView" customModule="Teddy_s_Resume" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="74"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monimus, LLC" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zk-7h-27l" userLabel="Company Label">
+                    <rect key="frame" x="10" y="8" width="128" height="27"/>
+                    <fontDescription key="fontDescription" name="Calibri-Bold" family="Calibri" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lead iOS Developer &amp; Mobile Project Manager" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tpn-dr-Rk7" userLabel="Position Label">
+                    <rect key="frame" x="10" y="42" width="357" height="24"/>
+                    <fontDescription key="fontDescription" name="Calibri-Italic" family="Calibri" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sept '14 - Present" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5R-Aw-XOd" userLabel="Period Label">
+                    <rect key="frame" x="424" y="8" width="160" height="27"/>
+                    <fontDescription key="fontDescription" name="Calibri-Bold" family="Calibri" pointSize="22"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.52028383030000003" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Tpn-dr-Rk7" firstAttribute="top" secondItem="3Zk-7h-27l" secondAttribute="bottom" constant="7" id="7HB-fR-3Pt"/>
+                <constraint firstItem="3Zk-7h-27l" firstAttribute="leading" secondItem="Tpn-dr-Rk7" secondAttribute="leading" id="7p2-hp-6hM"/>
+                <constraint firstItem="3Zk-7h-27l" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="C4E-fs-wic"/>
+                <constraint firstItem="Tpn-dr-Rk7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="G8U-oT-DIn"/>
+                <constraint firstAttribute="trailing" secondItem="B5R-Aw-XOd" secondAttribute="trailing" constant="16" id="TF5-1R-1WY"/>
+                <constraint firstItem="3Zk-7h-27l" firstAttribute="top" secondItem="B5R-Aw-XOd" secondAttribute="top" id="bHk-NI-cBi"/>
+                <constraint firstItem="3Zk-7h-27l" firstAttribute="bottom" secondItem="B5R-Aw-XOd" secondAttribute="bottom" id="cp5-F0-V6P"/>
+                <constraint firstItem="3Zk-7h-27l" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="dIJ-ea-7ot"/>
+                <constraint firstItem="3Zk-7h-27l" firstAttribute="leading" secondItem="Tpn-dr-Rk7" secondAttribute="leading" id="gQB-Ic-Aa3"/>
+                <constraint firstItem="Tpn-dr-Rk7" firstAttribute="top" secondItem="B5R-Aw-XOd" secondAttribute="bottom" constant="12" id="oSl-DB-HvV"/>
+                <constraint firstItem="B5R-Aw-XOd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="svI-6K-GU8"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="7p2-hp-6hM"/>
+                    <exclude reference="G8U-oT-DIn"/>
+                    <exclude reference="oSl-DB-HvV"/>
+                    <exclude reference="svI-6K-GU8"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="companyLabel" destination="3Zk-7h-27l" id="IZo-9w-MjQ"/>
+                <outlet property="periodLabel" destination="B5R-Aw-XOd" id="UVp-mg-SQT"/>
+                <outlet property="positionLabel" destination="Tpn-dr-Rk7" id="Zk4-V4-a6S"/>
+            </connections>
+        </view>
+    </objects>
+</document>
