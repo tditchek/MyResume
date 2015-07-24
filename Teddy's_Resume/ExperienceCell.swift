@@ -11,7 +11,6 @@ import UIKit
 class ExperienceCell: UITableViewCell {
 
     @IBOutlet weak var responsibilityLabel: UILabel!
-    
     @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     
     var responsibility: Responsibility? {
@@ -19,9 +18,7 @@ class ExperienceCell: UITableViewCell {
             configureCell()
         }
     }
-    
-    var lastInSection: Bool = false
-    
+        
     private func configureCell() {
         responsibilityLabel.text = responsibility!.text
         
@@ -33,7 +30,6 @@ class ExperienceCell: UITableViewCell {
             responsibilityLabel.font = UIFont(name: "Calibri", size: 14.0)
             leadingConstraint.constant = 48
         }
-        
         // bottomConstraint.constant = lastInSection ? 24 : 4
         
         setNeedsUpdateConstraints()

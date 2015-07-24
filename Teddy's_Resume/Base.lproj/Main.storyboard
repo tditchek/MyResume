@@ -13,6 +13,7 @@
         <mutableArray key="Arkhip_font_1.otf">
             <string>Arkhip</string>
             <string>Arkhip</string>
+            <string>Arkhip</string>
         </mutableArray>
         <mutableArray key="Calibri_Bold.ttf">
             <string>Calibri-Bold</string>
@@ -197,7 +198,6 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <outlet property="bottomConstraint" destination="1cx-qH-80h" id="i00-ye-DVo"/>
                                             <outlet property="leadingConstraint" destination="SO4-3g-wZG" id="943-K8-3eB"/>
                                             <outlet property="responsibilityLabel" destination="AmF-bl-8dt" id="bjm-1e-FHu"/>
                                         </connections>
@@ -262,8 +262,8 @@
                                 <items/>
                                 <color key="barTintColor" red="0.21176470589999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Skills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14C-o1-7FL">
-                                <rect key="frame" x="254" y="26" width="94" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14C-o1-7FL">
+                                <rect key="frame" x="253" y="26" width="94" height="33"/>
                                 <fontDescription key="fontDescription" name="Arkhip" family="Arkhip" pointSize="27"/>
                                 <color key="textColor" red="0.054901960784313725" green="0.77254901960784317" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -278,7 +278,7 @@
                                     <inset key="sectionInset" minX="25" minY="0.0" maxX="25" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="w7Y-2e-D4q">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SkillCell" id="w7Y-2e-D4q" customClass="SkillCell" customModule="Teddy_s_Resume" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -311,24 +311,31 @@
                                             <constraint firstItem="BV7-b0-xHB" firstAttribute="leading" secondItem="w7Y-2e-D4q" secondAttribute="leading" constant="8" id="jdk-JD-KGv"/>
                                             <constraint firstItem="npH-7F-AVX" firstAttribute="leading" secondItem="w7Y-2e-D4q" secondAttribute="leading" id="yYp-P4-QEf"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="iconView" destination="npH-7F-AVX" id="dB1-Lp-c1U"/>
+                                            <outlet property="skillLabel" destination="BV7-b0-xHB" id="ap5-Ot-ctu"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="emx-4M-rXD">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SkillHeader" id="emx-4M-rXD" customClass="SkillsHeaderView" customModule="Teddy_s_Resume" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile App Development" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFS-GS-kp0">
-                                            <rect key="frame" x="25" y="12" width="188" height="16"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mobile App Development" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFS-GS-kp0">
+                                            <rect key="frame" x="25" y="12" width="186" height="16"/>
                                             <fontDescription key="fontDescription" name="Anke" family="Anke" pointSize="16"/>
                                             <color key="textColor" red="0.054901960780000002" green="0.25490196079999999" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.054901960780000002" green="0.7725490196" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="centerY" secondItem="sFS-GS-kp0" secondAttribute="centerY" id="FjY-YF-67c"/>
                                         <constraint firstItem="sFS-GS-kp0" firstAttribute="leading" secondItem="emx-4M-rXD" secondAttribute="leading" constant="25" id="K0n-g4-1ps"/>
                                     </constraints>
+                                    <connections>
+                                        <outlet property="categoryLabel" destination="sFS-GS-kp0" id="VGl-w6-ToT"/>
+                                    </connections>
                                 </collectionReusableView>
                                 <connections>
                                     <outlet property="dataSource" destination="UYq-Cn-gj7" id="91x-vh-yQj"/>
@@ -373,11 +380,39 @@
                     <view key="view" contentMode="scaleToFill" id="K5m-yG-elv">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kVh-hO-pCq">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items/>
+                                <color key="barTintColor" red="0.21176470589999999" green="0.20392156859999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUC-zq-CGw">
+                                <rect key="frame" x="222" y="25" width="157" height="33"/>
+                                <fontDescription key="fontDescription" name="Arkhip" family="Arkhip" pointSize="27"/>
+                                <color key="textColor" red="0.054901960780000002" green="0.7725490196" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.43137258291244507" green="0.0" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="IUC-zq-CGw" firstAttribute="centerY" secondItem="kVh-hO-pCq" secondAttribute="centerY" constant="-0.5" id="26A-KZ-aSi"/>
+                            <constraint firstItem="kVh-hO-pCq" firstAttribute="top" secondItem="GUX-ez-RTg" secondAttribute="bottom" id="9bq-bt-yit"/>
+                            <constraint firstItem="IUC-zq-CGw" firstAttribute="centerY" secondItem="kVh-hO-pCq" secondAttribute="centerY" id="Idd-wJ-3x4"/>
+                            <constraint firstItem="kVh-hO-pCq" firstAttribute="leading" secondItem="K5m-yG-elv" secondAttribute="leading" id="Lnh-32-mV7"/>
+                            <constraint firstAttribute="trailing" secondItem="kVh-hO-pCq" secondAttribute="trailing" id="OSP-Br-Cyq"/>
+                            <constraint firstAttribute="centerX" secondItem="IUC-zq-CGw" secondAttribute="centerX" id="Ud9-mb-D7I"/>
+                            <constraint firstItem="IUC-zq-CGw" firstAttribute="centerY" secondItem="kVh-hO-pCq" secondAttribute="centerY" id="zl6-nK-WAG"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Idd-wJ-3x4"/>
+                                <exclude reference="zl6-nK-WAG"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Education" image="Tab-Education" id="euL-lY-ffX">
                         <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="image" keyPath="keyPath" value="Tab-Education"/>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Tab-Education"/>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
                 </viewController>

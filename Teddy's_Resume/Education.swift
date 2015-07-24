@@ -10,6 +10,7 @@ import UIKit
 
 struct Education {
     
+    var college: String
     
 }
 

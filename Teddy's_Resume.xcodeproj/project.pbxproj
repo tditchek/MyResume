@@ -45,6 +45,34 @@
 		F4C8E6E41B61D33C00A79F84 /* obj-c.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6DD1B61D33C00A79F84 /* obj-c.png */; };
 		F4C8E6E51B61D33C00A79F84 /* swift-og (1).png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6DE1B61D33C00A79F84 /* swift-og (1).png */; };
 		F4C8E6E61B61D33C00A79F84 /* xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6DF1B61D33C00A79F84 /* xcode.png */; };
+		F4C8E6F01B61DFC100A79F84 /* agile.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6EA1B61DFC100A79F84 /* agile.png */; };
+		F4C8E6F11B61DFC100A79F84 /* basecamp.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6EB1B61DFC100A79F84 /* basecamp.png */; };
+		F4C8E6F21B61DFC100A79F84 /* git.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6EC1B61DFC100A79F84 /* git.png */; };
+		F4C8E6F31B61DFC100A79F84 /* jira.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6ED1B61DFC100A79F84 /* jira.png */; };
+		F4C8E6F41B61DFC100A79F84 /* scrum.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6EE1B61DFC100A79F84 /* scrum.png */; };
+		F4C8E6F51B61DFC100A79F84 /* trello.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6EF1B61DFC100A79F84 /* trello.png */; };
+		F4C8E7091B61DFD600A79F84 /* angularjs.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6F61B61DFD600A79F84 /* angularjs.png */; };
+		F4C8E70A1B61DFD600A79F84 /* backbonejs.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6F71B61DFD600A79F84 /* backbonejs.png */; };
+		F4C8E70B1B61DFD600A79F84 /* c++.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6F81B61DFD600A79F84 /* c++.png */; };
+		F4C8E70C1B61DFD600A79F84 /* css.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6F91B61DFD600A79F84 /* css.png */; };
+		F4C8E70D1B61DFD600A79F84 /* html.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6FA1B61DFD600A79F84 /* html.png */; };
+		F4C8E70E1B61DFD600A79F84 /* java.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6FB1B61DFD600A79F84 /* java.png */; };
+		F4C8E70F1B61DFD600A79F84 /* javascript.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6FC1B61DFD600A79F84 /* javascript.png */; };
+		F4C8E7101B61DFD600A79F84 /* jquery.gif in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6FD1B61DFD600A79F84 /* jquery.gif */; };
+		F4C8E7111B61DFD600A79F84 /* less.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6FE1B61DFD600A79F84 /* less.jpeg */; };
+		F4C8E7121B61DFD600A79F84 /* mongo_db.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E6FF1B61DFD600A79F84 /* mongo_db.png */; };
+		F4C8E7131B61DFD600A79F84 /* mqtt.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E7001B61DFD600A79F84 /* mqtt.png */; };
+		F4C8E7141B61DFD600A79F84 /* mysql.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E7011B61DFD600A79F84 /* mysql.png */; };
+		F4C8E7151B61DFD600A79F84 /* nodejs.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E7021B61DFD600A79F84 /* nodejs.png */; };
+		F4C8E7161B61DFD600A79F84 /* owasp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E7031B61DFD600A79F84 /* owasp.jpg */; };
+		F4C8E7171B61DFD600A79F84 /* rest.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E7041B61DFD600A79F84 /* rest.png */; };
+		F4C8E7181B61DFD600A79F84 /* sqllite.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E7051B61DFD600A79F84 /* sqllite.png */; };
+		F4C8E7191B61DFD600A79F84 /* webrtc.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E7061B61DFD600A79F84 /* webrtc.png */; };
+		F4C8E71A1B61DFD600A79F84 /* XML.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E7071B61DFD600A79F84 /* XML.png */; };
+		F4C8E71B1B61DFD600A79F84 /* xmpp.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E7081B61DFD600A79F84 /* xmpp.png */; };
+		F4C8E71D1B6200D800A79F84 /* SkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C8E71C1B6200D800A79F84 /* SkillCell.swift */; };
+		F4C8E71F1B62057A00A79F84 /* SkillsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C8E71E1B62057A00A79F84 /* SkillsHeaderView.swift */; };
+		F4C8E7211B62B3DA00A79F84 /* SkillsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C8E7201B62B3DA00A79F84 /* SkillsHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +128,34 @@
 		F4C8E6DD1B61D33C00A79F84 /* obj-c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "obj-c.png"; sourceTree = "<group>"; };
 		F4C8E6DE1B61D33C00A79F84 /* swift-og (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swift-og (1).png"; sourceTree = "<group>"; };
 		F4C8E6DF1B61D33C00A79F84 /* xcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcode.png; sourceTree = "<group>"; };
+		F4C8E6EA1B61DFC100A79F84 /* agile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agile.png; sourceTree = "<group>"; };
+		F4C8E6EB1B61DFC100A79F84 /* basecamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basecamp.png; sourceTree = "<group>"; };
+		F4C8E6EC1B61DFC100A79F84 /* git.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = git.png; sourceTree = "<group>"; };
+		F4C8E6ED1B61DFC100A79F84 /* jira.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jira.png; sourceTree = "<group>"; };
+		F4C8E6EE1B61DFC100A79F84 /* scrum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrum.png; sourceTree = "<group>"; };
+		F4C8E6EF1B61DFC100A79F84 /* trello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trello.png; sourceTree = "<group>"; };
+		F4C8E6F61B61DFD600A79F84 /* angularjs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angularjs.png; sourceTree = "<group>"; };
+		F4C8E6F71B61DFD600A79F84 /* backbonejs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbonejs.png; sourceTree = "<group>"; };
+		F4C8E6F81B61DFD600A79F84 /* c++.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c++.png"; sourceTree = "<group>"; };
+		F4C8E6F91B61DFD600A79F84 /* css.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = css.png; sourceTree = "<group>"; };
+		F4C8E6FA1B61DFD600A79F84 /* html.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = html.png; sourceTree = "<group>"; };
+		F4C8E6FB1B61DFD600A79F84 /* java.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = java.png; sourceTree = "<group>"; };
+		F4C8E6FC1B61DFD600A79F84 /* javascript.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = javascript.png; sourceTree = "<group>"; };
+		F4C8E6FD1B61DFD600A79F84 /* jquery.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jquery.gif; sourceTree = "<group>"; };
+		F4C8E6FE1B61DFD600A79F84 /* less.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = less.jpeg; sourceTree = "<group>"; };
+		F4C8E6FF1B61DFD600A79F84 /* mongo_db.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mongo_db.png; sourceTree = "<group>"; };
+		F4C8E7001B61DFD600A79F84 /* mqtt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mqtt.png; sourceTree = "<group>"; };
+		F4C8E7011B61DFD600A79F84 /* mysql.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mysql.png; sourceTree = "<group>"; };
+		F4C8E7021B61DFD600A79F84 /* nodejs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nodejs.png; sourceTree = "<group>"; };
+		F4C8E7031B61DFD600A79F84 /* owasp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = owasp.jpg; sourceTree = "<group>"; };
+		F4C8E7041B61DFD600A79F84 /* rest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rest.png; sourceTree = "<group>"; };
+		F4C8E7051B61DFD600A79F84 /* sqllite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sqllite.png; sourceTree = "<group>"; };
+		F4C8E7061B61DFD600A79F84 /* webrtc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webrtc.png; sourceTree = "<group>"; };
+		F4C8E7071B61DFD600A79F84 /* XML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XML.png; sourceTree = "<group>"; };
+		F4C8E7081B61DFD600A79F84 /* xmpp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xmpp.png; sourceTree = "<group>"; };
+		F4C8E71C1B6200D800A79F84 /* SkillCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillCell.swift; sourceTree = "<group>"; };
+		F4C8E71E1B62057A00A79F84 /* SkillsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsHeaderView.swift; sourceTree = "<group>"; };
+		F4C8E7201B62B3DA00A79F84 /* SkillsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkillsHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +263,9 @@
 			isa = PBXGroup;
 			children = (
 				F4466CA01B474BCB00CB21F5 /* Skill.swift */,
+				F4C8E71C1B6200D800A79F84 /* SkillCell.swift */,
+				F4C8E71E1B62057A00A79F84 /* SkillsHeaderView.swift */,
+				F4C8E7201B62B3DA00A79F84 /* SkillsHeaderView.xib */,
 				F4466C941B45BF1000CB21F5 /* SkillsVC.swift */,
 			);
 			name = Skills;
@@ -233,11 +292,11 @@
 		F457343B1B60CFCC00FC3D6E /* Experience */ = {
 			isa = PBXGroup;
 			children = (
-				F4466C921B45BEFA00CB21F5 /* ExperienceVC.swift */,
+				F40F64381B4D981E000BFED0 /* Experience.swift */,
 				F457342D1B60991B00FC3D6E /* ExperienceCell.swift */,
 				F45734361B60C0AE00FC3D6E /* ExperienceSectionHeaderView.swift */,
 				F45734341B60BE3B00FC3D6E /* ExperienceSectionHeaderView.xib */,
-				F40F64381B4D981E000BFED0 /* Experience.swift */,
+				F4466C921B45BEFA00CB21F5 /* ExperienceVC.swift */,
 			);
 			name = Experience;
 			sourceTree = "<group>";
@@ -269,6 +328,25 @@
 		F4C8E6E81B61D34A00A79F84 /* Web */ = {
 			isa = PBXGroup;
 			children = (
+				F4C8E6F61B61DFD600A79F84 /* angularjs.png */,
+				F4C8E6F71B61DFD600A79F84 /* backbonejs.png */,
+				F4C8E6F81B61DFD600A79F84 /* c++.png */,
+				F4C8E6F91B61DFD600A79F84 /* css.png */,
+				F4C8E6FA1B61DFD600A79F84 /* html.png */,
+				F4C8E6FB1B61DFD600A79F84 /* java.png */,
+				F4C8E6FC1B61DFD600A79F84 /* javascript.png */,
+				F4C8E6FD1B61DFD600A79F84 /* jquery.gif */,
+				F4C8E6FE1B61DFD600A79F84 /* less.jpeg */,
+				F4C8E6FF1B61DFD600A79F84 /* mongo_db.png */,
+				F4C8E7001B61DFD600A79F84 /* mqtt.png */,
+				F4C8E7011B61DFD600A79F84 /* mysql.png */,
+				F4C8E7021B61DFD600A79F84 /* nodejs.png */,
+				F4C8E7031B61DFD600A79F84 /* owasp.jpg */,
+				F4C8E7041B61DFD600A79F84 /* rest.png */,
+				F4C8E7051B61DFD600A79F84 /* sqllite.png */,
+				F4C8E7061B61DFD600A79F84 /* webrtc.png */,
+				F4C8E7071B61DFD600A79F84 /* XML.png */,
+				F4C8E7081B61DFD600A79F84 /* xmpp.png */,
 			);
 			name = Web;
 			sourceTree = "<group>";
@@ -276,6 +354,12 @@
 		F4C8E6E91B61D34D00A79F84 /* PM */ = {
 			isa = PBXGroup;
 			children = (
+				F4C8E6EA1B61DFC100A79F84 /* agile.png */,
+				F4C8E6EB1B61DFC100A79F84 /* basecamp.png */,
+				F4C8E6EC1B61DFC100A79F84 /* git.png */,
+				F4C8E6ED1B61DFC100A79F84 /* jira.png */,
+				F4C8E6EE1B61DFC100A79F84 /* scrum.png */,
+				F4C8E6EF1B61DFC100A79F84 /* trello.png */,
 			);
 			name = PM;
 			sourceTree = "<group>";
@@ -360,29 +444,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C8E70D1B61DFD600A79F84 /* html.png in Resources */,
+				F4C8E7131B61DFD600A79F84 /* mqtt.png in Resources */,
+				F4C8E70C1B61DFD600A79F84 /* css.png in Resources */,
 				F40F642F1B4CC97E000BFED0 /* Arkhip_font_2.otf in Resources */,
 				F45734401B615B2300FC3D6E /* Calibri_Italic.ttf in Resources */,
+				F4C8E7171B61DFD600A79F84 /* rest.png in Resources */,
+				F4C8E7111B61DFD600A79F84 /* less.jpeg in Resources */,
+				F4C8E70A1B61DFD600A79F84 /* backbonejs.png in Resources */,
+				F4C8E6F31B61DFC100A79F84 /* jira.png in Resources */,
 				F457343F1B615B2100FC3D6E /* Calibri.ttf in Resources */,
 				F4C8E6E61B61D33C00A79F84 /* xcode.png in Resources */,
 				F4466C761B4475F700CB21F5 /* Main.storyboard in Resources */,
 				F40F642E1B4CC97E000BFED0 /* Arkhip_font_1.otf in Resources */,
 				F4C8E6E11B61D33C00A79F84 /* cocoapods.png in Resources */,
+				F4C8E71A1B61DFD600A79F84 /* XML.png in Resources */,
+				F4C8E70E1B61DFD600A79F84 /* java.png in Resources */,
 				F40F64371B4CD460000BFED0 /* Anke.ttf in Resources */,
+				F4C8E7191B61DFD600A79F84 /* webrtc.png in Resources */,
 				F4C8E6E21B61D33C00A79F84 /* core-data.png in Resources */,
 				F45734411B615B2600FC3D6E /* Calibri_Bold.ttf in Resources */,
 				F4C8E6E31B61D33C00A79F84 /* ios.png in Resources */,
+				F4C8E7211B62B3DA00A79F84 /* SkillsHeaderView.xib in Resources */,
 				F4C8E6E41B61D33C00A79F84 /* obj-c.png in Resources */,
 				F45734421B615B2800FC3D6E /* Calibri_Bold_Italic.ttf in Resources */,
 				F4C8E6D71B61D11000A79F84 /* Skills.plist in Resources */,
+				F4C8E7091B61DFD600A79F84 /* angularjs.png in Resources */,
+				F4C8E70F1B61DFD600A79F84 /* javascript.png in Resources */,
+				F4C8E6F01B61DFC100A79F84 /* agile.png in Resources */,
 				F4C8E6E51B61D33C00A79F84 /* swift-og (1).png in Resources */,
+				F4C8E70B1B61DFD600A79F84 /* c++.png in Resources */,
+				F4C8E7141B61DFD600A79F84 /* mysql.png in Resources */,
+				F4C8E7181B61DFD600A79F84 /* sqllite.png in Resources */,
+				F4C8E6F21B61DFC100A79F84 /* git.png in Resources */,
+				F4C8E71B1B61DFD600A79F84 /* xmpp.png in Resources */,
+				F4C8E6F11B61DFC100A79F84 /* basecamp.png in Resources */,
 				F457343E1B615B1C00FC3D6E /* Calibril.ttf in Resources */,
+				F4C8E7151B61DFD600A79F84 /* nodejs.png in Resources */,
 				F4C8E6E01B61D33C00A79F84 /* Android.png in Resources */,
+				F4C8E7161B61DFD600A79F84 /* owasp.jpg in Resources */,
 				F40F64301B4CC97E000BFED0 /* Arkhip_font.otf in Resources */,
 				F45734351B60BE3B00FC3D6E /* ExperienceSectionHeaderView.xib in Resources */,
 				F4466C7B1B4475F700CB21F5 /* LaunchScreen.xib in Resources */,
+				F4C8E7121B61DFD600A79F84 /* mongo_db.png in Resources */,
+				F4C8E6F51B61DFC100A79F84 /* trello.png in Resources */,
 				F40F64361B4CD460000BFED0 /* Anke.otf in Resources */,
 				F4466C781B4475F700CB21F5 /* Images.xcassets in Resources */,
+				F4C8E6F41B61DFC100A79F84 /* scrum.png in Resources */,
 				F457342C1B6090FC00FC3D6E /* Experience.plist in Resources */,
+				F4C8E7101B61DFD600A79F84 /* jquery.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,8 +514,10 @@
 				F45734371B60C0AE00FC3D6E /* ExperienceSectionHeaderView.swift in Sources */,
 				F4466C9B1B466D8600CB21F5 /* Teddy.swift in Sources */,
 				F40F64391B4D981E000BFED0 /* Experience.swift in Sources */,
+				F4C8E71D1B6200D800A79F84 /* SkillCell.swift in Sources */,
 				F457343D1B61577500FC3D6E /* PropertyListImporter.swift in Sources */,
 				F4466C911B45BCAA00CB21F5 /* AboutMeVC.swift in Sources */,
+				F4C8E71F1B62057A00A79F84 /* SkillsHeaderView.swift in Sources */,
 				F4466C931B45BEFA00CB21F5 /* ExperienceVC.swift in Sources */,
 				F4466C991B45C76600CB21F5 /* TabBarController.swift in Sources */,
 				F4466C711B4475F700CB21F5 /* AppDelegate.swift in Sources */,

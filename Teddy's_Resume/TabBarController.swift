@@ -74,13 +74,10 @@ class AnimationTransitioner: NSObject, UIViewControllerAnimatedTransitioning {
                 // update internal view. must ALWAYS be called
                 transitionContext.completeTransition(true)
         }
-        
     }
     
     func transitionDuration(transitionContext: UIViewControllerContextTransitioning) -> NSTimeInterval {
 
         return 0.33
     }
-    
 }
-

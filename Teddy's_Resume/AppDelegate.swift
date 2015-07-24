@@ -73,9 +73,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     // MARK: Load Skills from Plist
-    func loadTechSkills() -> TechSkills {
+    func loadTechStack() -> TechStack {
         
-        var myTechSkills = TechSkills(skillCategories: [])
+        var myTechStack = TechStack(skillCategories: [])
         
         let filepath = NSBundle.mainBundle().pathForResource("Skills", ofType: "plist")
         let dict  = NSDictionary(contentsOfFile: filepath!)
@@ -100,12 +100,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             
             //let skill = Skill(name: ;, icon: <#UIImage#>)
-            let category = SkillCategory(category: categoryString, skills: mySkills)
-            myTechSkills.skillCategories.append(category)
+            let category = SkillCategory(name: categoryString, skills: mySkills)
+            myTechStack.skillCategories.append(category)
             
             }
         
-            return myTechSkills
+            return myTechStack
         }
 // TODO: add Plist for Education/AboutMe and implement load methods
 //    // MARK: Load Education from Plist
