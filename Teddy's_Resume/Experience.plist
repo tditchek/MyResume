@@ -71,7 +71,7 @@
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>◦ Managing Scrum and Kanban boards, weekly sprints, and holding daily stand up meetings</string>
+					<string>○ Managing Scrum and Kanban boards, weekly sprints, and holding daily stand up meetings</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
@@ -112,25 +112,25 @@
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>◦ Led design and development of native iOS and Android applications</string>
+					<string>○ Led design and development of native iOS and Android applications</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>○ Created and deployed backend web service &amp; database</string>
+					<string>○ Created and deployed backend web service and database</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<true/>
+					<key>text</key>
+					<string>● Volunteer team leader for care of chronically sick children and young adults in a medically supervised travel program</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>○ </string>
-				</dict>
-				<dict>
-					<key>isMain</key>
-					<false/>
-					<key>text</key>
-					<string>○ </string>
+					<string>○ Cared for the longest surviving ventilator-dependent quadriplegic living in the US.</string>
 				</dict>
 			</array>
 		</dict>
@@ -159,13 +159,19 @@
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>○ Designed app architecture leveraging Cocoa Touch networking frameworks &amp; Firebase (Mobile BaaS) </string>
+					<string>○ Designed app architecture leveraging Cocoa Touch networking frameworks and Firebase (Mobile BaaS) </string>
 				</dict>
 				<dict>
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
 					<string>○ Developed technology platform infrastructure architecture deploying to Google App Engine (PaaS)</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ Improved code quality (memory management, performance, security) through implementing static code analysis as part of CI lifecycle</string>
 				</dict>
 			</array>
 		</dict>
@@ -182,7 +188,13 @@
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>◦ Modernized several outdated native iOS translation apps to support iOS 7/8 compatibility</string>
+					<string>○ Modernized several outdated native iOS translation apps to support iOS 7/8 compatibility</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ Improved application performance and user experience (UX)</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
@@ -190,17 +202,58 @@
 					<key>text</key>
 					<string>○ Managed product backlog, timeline, cost, and development</string>
 				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>company</key>
+			<string>NY State Senate Campaign</string>
+			<key>period</key>
+			<string>May ’12 – Nov ‘12</string>
+			<key>position</key>
+			<string>Web Developer / Campaign Strategist</string>
+			<key>responsibilities</key>
+			<array>
 				<dict>
 					<key>isMain</key>
-					<false/>
+					<true/>
 					<key>text</key>
-					<string>○</string>
+					<string>● Developed highly interactive Web 2.0 website supporting campaign needs such as:</string>
 				</dict>
 				<dict>
 					<key>isMain</key>
 					<false/>
 					<key>text</key>
-					<string>○</string>
+					<string>○ Voter registration</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ Campaign Contributions</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ Campaign information management</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<true/>
+					<key>text</key>
+					<string>● Contributed to campaign victory through:</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ Organized and led voter outreach and awareness community meetings</string>
+				</dict>
+				<dict>
+					<key>isMain</key>
+					<false/>
+					<key>text</key>
+					<string>○ Managed social media outlets</string>
 				</dict>
 			</array>
 		</dict>
@@ -208,7 +261,7 @@
 			<key>company</key>
 			<string>TMD Tutoring</string>
 			<key>period</key>
-			<string></string>
+			<string>Jan &apos;09 - Present</string>
 			<key>position</key>
 			<string>Founder &amp; Private Tutor</string>
 			<key>responsibilities</key>
@@ -217,7 +270,7 @@
 					<key>isMain</key>
 					<true/>
 					<key>text</key>
-					<string></string>
+					<string>● Provided gradeschool through college-level tutoring and test prep in Math, C++, Java, and other diverse areas of study</string>
 				</dict>
 			</array>
 		</dict>

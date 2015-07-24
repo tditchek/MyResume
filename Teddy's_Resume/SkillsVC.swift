@@ -10,6 +10,8 @@ import UIKit
 
 class SkillsVC: UIViewController {
 
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,4 +34,20 @@ class SkillsVC: UIViewController {
     }
     */
 
+}
+
+extension SkillsVC: UICollectionViewDataSource {
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        return UICollectionViewCell()
+    }
+    
+}
+
+extension SkillsVC: UICollectionViewDelegate {
+    
 }

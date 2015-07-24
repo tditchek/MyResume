@@ -19,6 +19,8 @@ class ExperienceVC: UIViewController {
         experience = loadExperience()
         tableView.estimatedRowHeight = 20.0
         tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedSectionHeaderHeight = 208.0
+        tableView.sectionHeaderHeight = UITableViewAutomaticDimension
 
         // Do any additional setup after loading the view.
     }
@@ -102,10 +104,14 @@ extension ExperienceVC: UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("ExperienceCell", forIndexPath: indexPath) as! ExperienceCell
         
+        if indexPath.row == experience.jobs[indexPath.section].responsibilities.count {
+            cell.lastInSection = true
+        }
+        
         let responsibility: Responsibility = experience.jobs[indexPath.section].responsibilities[indexPath.row]
         cell.responsibility = responsibility
         
-        println("Cell \(indexPath.row+1): height \(cell.frame.size.height)")
+        //println("Cell \(indexPath.row+1): height \(cell.frame.size.height)")
         
         return cell
     }
@@ -155,9 +161,7 @@ extension ExperienceVC: UITableViewDelegate {
 //        return headerView
     }
     
-    
-    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 69.0
-    }
-    
+//    func tableView(tableView: UITableView, estimatedHeightForHeaderInSection section: Int) -> CGFloat {
+//        return 134.0
+//    }
 }

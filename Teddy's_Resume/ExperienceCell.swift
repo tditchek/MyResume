@@ -12,9 +12,8 @@ class ExperienceCell: UITableViewCell {
 
     @IBOutlet weak var responsibilityLabel: UILabel!
     
-    @IBOutlet weak var responsibilityLeadingConstraint: NSLayoutConstraint!
-    
-    var isMainResponsibility: Bool = false
+    @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
+    @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     
     var responsibility: Responsibility? {
         didSet {
@@ -22,17 +21,23 @@ class ExperienceCell: UITableViewCell {
         }
     }
     
+    var lastInSection: Bool = false
+    
     private func configureCell() {
         responsibilityLabel.text = responsibility!.text
         
         if responsibility!.isMain {
             responsibilityLabel.font = UIFont(name: "Calibri-Bold", size: 14.0)
-            responsibilityLeadingConstraint.constant = 12
+            leadingConstraint.constant = 12
             
         } else {
             responsibilityLabel.font = UIFont(name: "Calibri", size: 14.0)
-            responsibilityLeadingConstraint.constant = 48
+            leadingConstraint.constant = 48
         }
+        
+        bottomConstraint.constant = lastInSection ? 24 : 4
+        
         setNeedsUpdateConstraints()
+        
     }
 }

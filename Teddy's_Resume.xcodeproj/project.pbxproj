@@ -26,8 +26,7 @@
 		F4466C9B1B466D8600CB21F5 /* Teddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4466C9A1B466D8600CB21F5 /* Teddy.swift */; };
 		F4466C9D1B466E6F00CB21F5 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4466C9C1B466E6F00CB21F5 /* Education.swift */; };
 		F4466C9F1B466E9800CB21F5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4466C9E1B466E9800CB21F5 /* Constants.swift */; };
-		F4466CA11B474BCB00CB21F5 /* TechSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4466CA01B474BCB00CB21F5 /* TechSkill.swift */; };
-		F4466CA31B474C1600CB21F5 /* OtherSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4466CA21B474C1600CB21F5 /* OtherSkill.swift */; };
+		F4466CA11B474BCB00CB21F5 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4466CA01B474BCB00CB21F5 /* Skill.swift */; };
 		F457342C1B6090FC00FC3D6E /* Experience.plist in Resources */ = {isa = PBXBuildFile; fileRef = F457342B1B6090FC00FC3D6E /* Experience.plist */; };
 		F457342E1B60991B00FC3D6E /* ExperienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F457342D1B60991B00FC3D6E /* ExperienceCell.swift */; };
 		F45734351B60BE3B00FC3D6E /* ExperienceSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F45734341B60BE3B00FC3D6E /* ExperienceSectionHeaderView.xib */; };
@@ -74,8 +73,7 @@
 		F4466C9A1B466D8600CB21F5 /* Teddy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teddy.swift; sourceTree = "<group>"; };
 		F4466C9C1B466E6F00CB21F5 /* Education.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
 		F4466C9E1B466E9800CB21F5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		F4466CA01B474BCB00CB21F5 /* TechSkill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechSkill.swift; sourceTree = "<group>"; };
-		F4466CA21B474C1600CB21F5 /* OtherSkill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherSkill.swift; sourceTree = "<group>"; };
+		F4466CA01B474BCB00CB21F5 /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 		F457342B1B6090FC00FC3D6E /* Experience.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Experience.plist; sourceTree = "<group>"; };
 		F457342D1B60991B00FC3D6E /* ExperienceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceCell.swift; sourceTree = "<group>"; };
 		F457342F1B60994400FC3D6E /* Calibri_Bold_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Calibri_Bold_Italic.ttf; sourceTree = "<group>"; };
@@ -146,8 +144,8 @@
 			children = (
 				F4466C701B4475F700CB21F5 /* AppDelegate.swift */,
 				F4466C741B4475F700CB21F5 /* Main.storyboard */,
-				F4466C9E1B466E9800CB21F5 /* Constants.swift */,
 				F4466C981B45C76600CB21F5 /* TabBarController.swift */,
+				F4466C9E1B466E9800CB21F5 /* Constants.swift */,
 				F457343C1B61577500FC3D6E /* PropertyListImporter.swift */,
 				F457343B1B60CFCC00FC3D6E /* Experience */,
 				F457343A1B60CFCA00FC3D6E /* About Me */,
@@ -190,8 +188,7 @@
 		F45734381B60CFC500FC3D6E /* Skills */ = {
 			isa = PBXGroup;
 			children = (
-				F4466CA01B474BCB00CB21F5 /* TechSkill.swift */,
-				F4466CA21B474C1600CB21F5 /* OtherSkill.swift */,
+				F4466CA01B474BCB00CB21F5 /* Skill.swift */,
 				F4466C941B45BF1000CB21F5 /* SkillsVC.swift */,
 			);
 			name = Skills;
@@ -342,7 +339,6 @@
 				F4466C951B45BF1000CB21F5 /* SkillsVC.swift in Sources */,
 				F45734371B60C0AE00FC3D6E /* ExperienceSectionHeaderView.swift in Sources */,
 				F4466C9B1B466D8600CB21F5 /* Teddy.swift in Sources */,
-				F4466CA31B474C1600CB21F5 /* OtherSkill.swift in Sources */,
 				F40F64391B4D981E000BFED0 /* Experience.swift in Sources */,
 				F457343D1B61577500FC3D6E /* PropertyListImporter.swift in Sources */,
 				F4466C911B45BCAA00CB21F5 /* AboutMeVC.swift in Sources */,
@@ -351,7 +347,7 @@
 				F4466C711B4475F700CB21F5 /* AppDelegate.swift in Sources */,
 				F4466C9D1B466E6F00CB21F5 /* Education.swift in Sources */,
 				F457342E1B60991B00FC3D6E /* ExperienceCell.swift in Sources */,
-				F4466CA11B474BCB00CB21F5 /* TechSkill.swift in Sources */,
+				F4466CA11B474BCB00CB21F5 /* Skill.swift in Sources */,
 				F4466C971B45BF2100CB21F5 /* EducationVC.swift in Sources */,
 				F4466C9F1B466E9800CB21F5 /* Constants.swift in Sources */,
 			);

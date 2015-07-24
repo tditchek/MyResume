@@ -4,8 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <customFonts key="customFonts">
+        <mutableArray key="Calibri.ttf">
+            <string>Calibri</string>
+        </mutableArray>
         <mutableArray key="Calibri_Bold.ttf">
-            <string>Calibri-Bold</string>
             <string>Calibri-Bold</string>
         </mutableArray>
         <mutableArray key="Calibri_Italic.ttf">
@@ -16,57 +18,97 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExperienceSectionHeaderView" customModule="Teddy_s_Resume" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ExperienceSectionHeaderView" customModule="Teddy_s_Resume" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="69"/>
+            <rect key="frame" x="0.0" y="0.0" width="600" height="213"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monimus, LLC" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zk-7h-27l" userLabel="Company Label">
-                    <rect key="frame" x="10" y="8" width="116" height="25"/>
-                    <fontDescription key="fontDescription" name="Calibri-Bold" family="Calibri" pointSize="20"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="reS-hP-AcL">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="213"/>
+                    <color key="backgroundColor" red="0.054901960780000002" green="0.7725490196" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="752" placeholderIntrinsicWidth="250" placeholderIntrinsicHeight="117" text="Integrative Pediatric Associates of NY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zk-7h-27l" userLabel="Company Label">
+                    <rect key="frame" x="10" y="8" width="580" height="128"/>
+                    <fontDescription key="fontDescription" name="Calibri-Bold" family="Calibri" pointSize="19"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" tag="103" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lead iOS Developer &amp; Mobile Project Manager" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tpn-dr-Rk7" userLabel="Position Label">
-                    <rect key="frame" x="10" y="40" width="320" height="21"/>
-                    <fontDescription key="fontDescription" name="Calibri-Italic" family="Calibri" pointSize="17"/>
+                <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="753" text="Sept '13 - May '14" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5R-Aw-XOd" userLabel="Period Label">
+                    <rect key="frame" x="10" y="186" width="580" height="19"/>
+                    <fontDescription key="fontDescription" name="Calibri" family="Calibri" pointSize="15"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sept '14 - Present" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5R-Aw-XOd" userLabel="Period Label">
-                    <rect key="frame" x="439" y="8" width="145" height="25"/>
-                    <fontDescription key="fontDescription" name="Calibri-Bold" family="Calibri" pointSize="20"/>
+                <label opaque="NO" userInteractionEnabled="NO" tag="103" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" placeholderIntrinsicWidth="256" placeholderIntrinsicHeight="42" text="Lead iOS Developer &amp; Mobile Project Manager" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tpn-dr-Rk7" userLabel="Position Label">
+                    <rect key="frame" x="10" y="140" width="580" height="42"/>
+                    <fontDescription key="fontDescription" name="Calibri-Italic" family="Calibri" pointSize="16"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eqq-5C-Xux">
+                    <rect key="frame" x="0.0" y="0.0" width="2" height="213"/>
+                    <color key="backgroundColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="2" id="f1O-2Z-sHi"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yjK-gu-J3y">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="1"/>
+                    <color key="backgroundColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="MdD-aL-kFg"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIY-bd-NeR">
+                    <rect key="frame" x="0.0" y="212" width="600" height="1"/>
+                    <color key="backgroundColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="pLD-Vx-Isd"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Csr-gP-5Wm">
+                    <rect key="frame" x="598" y="0.0" width="2" height="213"/>
+                    <color key="backgroundColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="2" id="wNM-rN-bgl"/>
+                    </constraints>
+                </view>
             </subviews>
-            <color key="backgroundColor" red="0.054901960780000002" green="0.7725490196" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="Tpn-dr-Rk7" firstAttribute="top" secondItem="3Zk-7h-27l" secondAttribute="bottom" constant="7" id="7HB-fR-3Pt"/>
-                <constraint firstItem="3Zk-7h-27l" firstAttribute="leading" secondItem="Tpn-dr-Rk7" secondAttribute="leading" id="7p2-hp-6hM"/>
-                <constraint firstItem="3Zk-7h-27l" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="C4E-fs-wic"/>
-                <constraint firstItem="Tpn-dr-Rk7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="G8U-oT-DIn"/>
-                <constraint firstAttribute="trailing" secondItem="B5R-Aw-XOd" secondAttribute="trailing" constant="16" id="TF5-1R-1WY"/>
-                <constraint firstItem="3Zk-7h-27l" firstAttribute="top" secondItem="B5R-Aw-XOd" secondAttribute="top" id="bHk-NI-cBi"/>
-                <constraint firstItem="3Zk-7h-27l" firstAttribute="bottom" secondItem="B5R-Aw-XOd" secondAttribute="bottom" id="cp5-F0-V6P"/>
-                <constraint firstItem="3Zk-7h-27l" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="dIJ-ea-7ot"/>
-                <constraint firstItem="3Zk-7h-27l" firstAttribute="leading" secondItem="Tpn-dr-Rk7" secondAttribute="leading" id="gQB-Ic-Aa3"/>
-                <constraint firstItem="Tpn-dr-Rk7" firstAttribute="top" secondItem="B5R-Aw-XOd" secondAttribute="bottom" constant="12" id="oSl-DB-HvV"/>
-                <constraint firstItem="B5R-Aw-XOd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="svI-6K-GU8"/>
+                <constraint firstItem="Tpn-dr-Rk7" firstAttribute="trailing" secondItem="B5R-Aw-XOd" secondAttribute="trailing" id="05I-Fm-H1q"/>
+                <constraint firstAttribute="bottom" secondItem="B5R-Aw-XOd" secondAttribute="bottom" constant="8" id="1Zt-BK-wyf"/>
+                <constraint firstAttribute="trailing" secondItem="Csr-gP-5Wm" secondAttribute="trailing" id="3IJ-Ul-T07"/>
+                <constraint firstItem="B5R-Aw-XOd" firstAttribute="leading" secondItem="Tpn-dr-Rk7" secondAttribute="leading" id="7QT-CP-bn2"/>
+                <constraint firstItem="yjK-gu-J3y" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7Wn-9J-lgh"/>
+                <constraint firstItem="mIY-bd-NeR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8Va-gf-9UJ"/>
+                <constraint firstItem="Csr-gP-5Wm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EG8-ad-fEu"/>
+                <constraint firstItem="3Zk-7h-27l" firstAttribute="leading" secondItem="Tpn-dr-Rk7" secondAttribute="leading" id="EOq-a9-JtL"/>
+                <constraint firstAttribute="trailing" secondItem="3Zk-7h-27l" secondAttribute="trailing" constant="10" id="I9r-B8-5o9"/>
+                <constraint firstAttribute="trailing" secondItem="mIY-bd-NeR" secondAttribute="trailing" id="LEW-x2-y9d"/>
+                <constraint firstAttribute="trailing" secondItem="reS-hP-AcL" secondAttribute="trailing" id="LdO-oq-OQY"/>
+                <constraint firstItem="B5R-Aw-XOd" firstAttribute="top" secondItem="Tpn-dr-Rk7" secondAttribute="bottom" constant="4" id="NEz-qz-38K"/>
+                <constraint firstItem="Tpn-dr-Rk7" firstAttribute="top" secondItem="3Zk-7h-27l" secondAttribute="bottom" constant="4" id="Nk9-Ja-Mq7"/>
+                <constraint firstItem="Eqq-5C-Xux" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="acX-2p-hAD"/>
+                <constraint firstItem="reS-hP-AcL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aej-tM-KNi"/>
+                <constraint firstAttribute="trailing" secondItem="yjK-gu-J3y" secondAttribute="trailing" id="b45-oY-LTT"/>
+                <constraint firstItem="3Zk-7h-27l" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="cIt-tB-siX"/>
+                <constraint firstItem="Eqq-5C-Xux" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gqk-LK-TZ6"/>
+                <constraint firstAttribute="bottom" secondItem="mIY-bd-NeR" secondAttribute="bottom" id="kzN-wh-bXc"/>
+                <constraint firstItem="3Zk-7h-27l" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="oSK-n9-3nZ"/>
+                <constraint firstAttribute="bottom" secondItem="reS-hP-AcL" secondAttribute="bottom" id="oYt-aU-X24"/>
+                <constraint firstItem="yjK-gu-J3y" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pLk-CU-v3u"/>
+                <constraint firstItem="reS-hP-AcL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qAn-lm-r9B"/>
+                <constraint firstAttribute="bottom" secondItem="Eqq-5C-Xux" secondAttribute="bottom" id="tLI-Q3-kAo"/>
+                <constraint firstAttribute="bottom" secondItem="Csr-gP-5Wm" secondAttribute="bottom" id="xWL-lT-VYx"/>
+                <constraint firstItem="3Zk-7h-27l" firstAttribute="trailing" secondItem="Tpn-dr-Rk7" secondAttribute="trailing" id="yse-Cs-8Rt"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <variation key="default">
-                <mask key="constraints">
-                    <exclude reference="7p2-hp-6hM"/>
-                    <exclude reference="G8U-oT-DIn"/>
-                    <exclude reference="oSl-DB-HvV"/>
-                    <exclude reference="svI-6K-GU8"/>
-                </mask>
-            </variation>
             <connections>
                 <outlet property="companyLabel" destination="3Zk-7h-27l" id="IZo-9w-MjQ"/>
                 <outlet property="periodLabel" destination="B5R-Aw-XOd" id="UVp-mg-SQT"/>
                 <outlet property="positionLabel" destination="Tpn-dr-Rk7" id="Zk4-V4-a6S"/>
             </connections>
+            <point key="canvasLocation" x="239" y="283.5"/>
         </view>
     </objects>
 </document>
