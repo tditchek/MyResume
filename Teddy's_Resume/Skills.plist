@@ -13,43 +13,37 @@
 					<key>name</key>
 					<string>iOS</string>
 					<key>icon</key>
-					<string>ios.png</string>
+					<string>iOS</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Objective-C</string>
 					<key>icon</key>
-					<string>obj-c.png</string>
+					<string>Objective-C</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Swift</string>
 					<key>icon</key>
-					<string>swift-og (1).png</string>
+					<string>Swift</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Xcode</string>
 					<key>icon</key>
-					<string>xcode.png</string>
+					<string>Xcode</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Core Data</string>
 					<key>icon</key>
-					<string>core-data.png</string>
+					<string>CoreData</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Android</string>
 					<key>icon</key>
-					<string>Android.png</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>iOS</string>
-					<key>icon</key>
-					<string>ios.png</string>
+					<string>Android</string>
 				</dict>
 			</array>
 		</dict>
@@ -62,115 +56,115 @@
 					<key>name</key>
 					<string>C++</string>
 					<key>icon</key>
-					<string>c++.png</string>
+					<string>C++</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Java</string>
 					<key>icon</key>
-					<string>java.png</string>
+					<string>Java</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Javascript</string>
 					<key>icon</key>
-					<string>javascript.png</string>
+					<string>Javascript</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>MongoDB</string>
 					<key>icon</key>
-					<string>mongo_db.png</string>
+					<string>MongoDB</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>node.js</string>
 					<key>icon</key>
-					<string>nodejs.png</string>
+					<string>NodeJS</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>HTML</string>
 					<key>icon</key>
-					<string>html.png</string>
+					<string>HTML</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>CSS</string>
 					<key>icon</key>
-					<string>css.png</string>
+					<string>CSS</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Angular.js</string>
 					<key>icon</key>
-					<string>angularjs.png</string>
+					<string>Angular</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>MySQL</string>
 					<key>icon</key>
-					<string>mysql.png</string>
+					<string>MySQL</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>jQuery</string>
 					<key>icon</key>
-					<string>jquery.gif</string>
+					<string>jQuery</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>REST</string>
 					<key>icon</key>
-					<string>rest.png</string>
+					<string>REST</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Backbone.js</string>
 					<key>icon</key>
-					<string>backbonejs.png</string>
+					<string>Backbone</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>SQLite</string>
 					<key>icon</key>
-					<string>sqllite.png</string>
+					<string>SQLite</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>XML</string>
 					<key>icon</key>
-					<string>xml.png</string>
+					<string>XML</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>less</string>
 					<key>icon</key>
-					<string>less.jpeg</string>
+					<string>LESS</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>WebRTC</string>
 					<key>icon</key>
-					<string>webrtc.png</string>
+					<string>WebRTC</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>XMPP</string>
 					<key>icon</key>
-					<string>xmpp.png</string>
+					<string>XMPP</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>MQTT</string>
 					<key>icon</key>
-					<string>mqtt.png</string>
+					<string>MQTT</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>OWASP</string>
 					<key>icon</key>
-					<string>owasp.jpg</string>
+					<string>OWASP</string>
 				</dict>
 			</array>
 		</dict>
@@ -183,37 +177,37 @@
 					<key>name</key>
 					<string>Agile</string>
 					<key>icon</key>
-					<string>agile.png</string>
+					<string>Agile</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Git</string>
 					<key>icon</key>
-					<string>git.png</string>
+					<string>Git</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>SCRUM</string>
 					<key>icon</key>
-					<string>scrum.png</string>
+					<string>SCRUM</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>JIRA</string>
 					<key>icon</key>
-					<string>jira.png</string>
+					<string>JIRA</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Trello</string>
 					<key>icon</key>
-					<string>trello.png</string>
+					<string>Trello</string>
 				</dict>
 				<dict>
 					<key>name</key>
 					<string>Basecamp</string>
 					<key>icon</key>
-					<string>basecamp.png</string>
+					<string>Basecamp</string>
 				</dict>
 			</array>
 		</dict>
