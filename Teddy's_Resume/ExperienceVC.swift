@@ -16,7 +16,8 @@ class ExperienceVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        experience = loadExperience()
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        experience = appDelegate.loadExperience()
         tableView.estimatedRowHeight = 20.0
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedSectionHeaderHeight = 208.0
@@ -32,50 +33,7 @@ class ExperienceVC: UIViewController {
     }
     
     
-    func loadExperience() -> Experience {
-        
-        var myExp = Experience(jobs: [])
-        
-        let filepath = NSBundle.mainBundle().pathForResource("Experience", ofType: "plist")
-        let dict  = NSDictionary(contentsOfFile: filepath!)
-        let exp = Array(dict!.valueForKey("experience") as! NSArray)
-        
-        //var myJobs: [Job] = []
-        
-        //    println("JOBS:")
-        for job in exp {
-            
-            let company = String(job.valueForKey("company") as! NSString)
-            let period = String(job.valueForKey("period") as! NSString)
-            let position = String(job.valueForKey("position") as! NSString)
-            let responsibilities = Array(job.valueForKey("responsibilities") as! NSArray)
-            
-            var myResponsibilities: [Responsibility] = []
-            
-            //        println("RESPONSIBILITIES:")
-            for entry in responsibilities {
-                let text = String(entry.valueForKey("text") as! NSString)
-                let isMain = Bool(entry.valueForKey("isMain") as! NSNumber)
-                
-                let responsibility = Responsibility(text: text, isMain: isMain)
-                myResponsibilities.append(responsibility)
-//                println("\(myResponsibilities)")
-            }
-            
-            //for resp in
-            
-            let myJob = Job(company: company, period: period, position: position, responsibilities: myResponsibilities)
-            myExp.jobs.append(myJob)
-        }
-        
-        //println("\(exp)")
-        
-        //    println()
-        //    println("ALL EXPERIENCE:")
-        //    println("\(myExp)")
-        return myExp
-    }
-
+    
     /*
     // MARK: - Navigation
 
@@ -104,9 +62,9 @@ extension ExperienceVC: UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("ExperienceCell", forIndexPath: indexPath) as! ExperienceCell
         
-        if indexPath.row == experience.jobs[indexPath.section].responsibilities.count {
-            cell.lastInSection = true
-        }
+//        if indexPath.row == experience.jobs[indexPath.section].responsibilities.count {
+//            cell.lastInSection = true
+//        }
         
         let responsibility: Responsibility = experience.jobs[indexPath.section].responsibilities[indexPath.row]
         cell.responsibility = responsibility

@@ -28,6 +28,98 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
+    
+    // MARK: -
+    // MARK: PROPERTY LISTS
+    // MARK: Load Experience
+    func loadExperience() -> Experience {
+        
+        var myExp = Experience(jobs: [])
+        
+        let filepath = NSBundle.mainBundle().pathForResource("Experience", ofType: "plist")
+        let dict  = NSDictionary(contentsOfFile: filepath!)
+        let exp = Array(dict!.valueForKey("experience") as! NSArray)
+        
+        for job in exp {
+            
+            let company = String(job.valueForKey("company") as! NSString)
+            let period = String(job.valueForKey("period") as! NSString)
+            let position = String(job.valueForKey("position") as! NSString)
+            let responsibilities = Array(job.valueForKey("responsibilities") as! NSArray)
+            
+            var myResponsibilities: [Responsibility] = []
+            
+            for entry in responsibilities {
+                let text = String(entry.valueForKey("text") as! NSString)
+                let isMain = Bool(entry.valueForKey("isMain") as! NSNumber)
+                
+                let responsibility = Responsibility(text: text, isMain: isMain)
+                myResponsibilities.append(responsibility)
+                //                println("\(myResponsibilities)")
+            }
+            
+            //for resp in
+            
+            let myJob = Job(company: company, period: period, position: position, responsibilities: myResponsibilities)
+            myExp.jobs.append(myJob)
+        }
+        
+        //println("\(exp)")
+        
+        //    println()
+        //    println("ALL EXPERIENCE:")
+        //    println("\(myExp)")
+        return myExp
+    }
+    
+    // MARK: Load Skills from Plist
+    func loadTechSkills() -> TechSkills {
+        
+        var myTechSkills = TechSkills(skillCategories: [])
+        
+        let filepath = NSBundle.mainBundle().pathForResource("Skills", ofType: "plist")
+        let dict  = NSDictionary(contentsOfFile: filepath!)
+        let categories = Array(dict!.valueForKey("skillCategories") as! NSArray)
+        
+        for category in categories {
+            
+            //let company = String(job.valueForKey("company") as! NSString)
+            //let period = String(job.valueForKey("period") as! NSString)
+            let categoryString = String(category.valueForKey("category") as! NSString)
+            let skills = Array(category.valueForKey("skills") as! NSArray)
+            
+            var mySkills: [Skill] = []
+            
+            for skill in skills {
+             
+                let name = String(skill.valueForKey("name") as! NSString)
+                let icon = String(skill.valueForKey("icon") as! String)
+                
+                let mySkill = Skill(name: name, icon: UIImage(named: icon)!)
+                mySkills.append(mySkill)
+            }
+            
+            //let skill = Skill(name: ;, icon: <#UIImage#>)
+            let category = SkillCategory(category: categoryString, skills: mySkills)
+            myTechSkills.skillCategories.append(category)
+            
+            }
+        
+            return myTechSkills
+        }
+// TODO: add Plist for Education/AboutMe and implement load methods
+//    // MARK: Load Education from Plist
+//    func loadEducation() -> Education {
+//        
+//        
+//        return Education()
+//    }
+//    
+//    // MARK: Load About Me from Plist
+//    func loadAboutMe() -> Teddy {
+//        
+//        return Teddy()
+//    }
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

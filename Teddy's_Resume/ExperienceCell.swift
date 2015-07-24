@@ -13,7 +13,6 @@ class ExperienceCell: UITableViewCell {
     @IBOutlet weak var responsibilityLabel: UILabel!
     
     @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
-    @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     
     var responsibility: Responsibility? {
         didSet {
@@ -35,7 +34,7 @@ class ExperienceCell: UITableViewCell {
             leadingConstraint.constant = 48
         }
         
-        bottomConstraint.constant = lastInSection ? 24 : 4
+        // bottomConstraint.constant = lastInSection ? 24 : 4
         
         setNeedsUpdateConstraints()
         
